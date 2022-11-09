@@ -1,6 +1,7 @@
 /** @format */
 
 import React from "react";
+import Chart from "../../components/Chart";
 import FeaturedInfo from "../../components/FeaturedInfo";
 import "./index.css";
 const widgetsList = [
@@ -12,13 +13,17 @@ const Home = () => {
   return (
     <div className="home">
       <div className="homeWidgets">
-        {widgetsList.map((props) => {
+        {widgetsList.map((props, idx) => {
           return (
-            <>
+            <div key={idx}>
               <FeaturedInfo {...props} />
-            </>
+            </div>
           );
         })}
+      </div>
+      <div className="homeChart">
+        <h3>Active User Deatils</h3>
+        <Chart />
       </div>
     </div>
   );

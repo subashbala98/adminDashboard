@@ -3,6 +3,17 @@
 }
 .homeWidgets{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+}
+
+
+.homeChart{
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    width: 90%;
+    margin: 2rem 5rem;
+}
+.homeChart h3{
+    padding: 1rem;
 }
