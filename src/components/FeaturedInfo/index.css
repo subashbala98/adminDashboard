@@ -1,0 +1,26 @@
+.arrow_down{
+color: red;
+font-size: 1.1rem;
+}
+.arrow_up{
+color: green;
+font-size: 1.1rem;
+}
+.featureInfo{
+    padding: 1.4rem;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    width: 15rem;
+}
+.featureInfo p{
+font-size: 1.6rem;
+}
+.featureInfo div{
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.5rem 1px;
+    align-items: center;
+}
+.featureInfo span{
+    color: #555;
+}
