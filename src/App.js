@@ -1,9 +1,14 @@
 /** @format */
 
 import "./App.css";
+import Topbar from "./components/Topbar";
 
 function App() {
-  return <div>Welcome to the React Course</div>;
+  return (
+    <div>
+      <Topbar />
+    </div>
+  );
 }
 
 export default App;
