@@ -4,47 +4,47 @@
   position: sticky;
   top: 0;
   width: 100%;
-  height: 2.5rem;
+  height: 3rem;
   padding: 0 1rem;
   background-color: #ffff;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 9999;
 }
-.topbarWrapper{
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+.topbarWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 .topbarLeft {
-    position: relative;
-    cursor: pointer;
+  position: relative;
+  cursor: pointer;
 }
 .topbarName {
   font-size: 2rem;
   font-weight: bold;
-  color: #027D8D;
+  color: darkblue;
 }
 .topbarWrapper {
   font-size: 1.5rem;
   color: #555;
-
 }
-.topbarAlert{
-    position: absolute;
-    background-color:#f25d50 ;
-    top: -4px;
-    font-size: 0.75rem;
-    color: #fff;
-    padding: 0.1rem;
-    border-radius: 50%;
-width: 1.1rem;
-height: 1.1rem;
-text-align: center;
-right: -4px;
+.topbarAlert {
+  position: absolute;
+  background-color: #f25d50;
+  top: -4px;
+  font-size: 0.75rem;
+  color: #fff;
+  padding: 0.1rem;
+  border-radius: 50%;
+  width: 1.1rem;
+  height: 1.1rem;
+  text-align: center;
+  right: -4px;
 }
 
-.topbarAvatar>img{
-    border-radius: 50%;
-    cursor: pointer;
+.topbarAvatar > img {
+  border-radius: 50%;
+  cursor: pointer;
 }

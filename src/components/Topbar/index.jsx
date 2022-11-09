@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { Children } from "react";
+import React from "react";
 import "./index.css";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { TbWorld } from "react-icons/tb";
